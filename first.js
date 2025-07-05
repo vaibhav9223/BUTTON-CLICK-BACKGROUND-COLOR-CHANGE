@@ -4,12 +4,12 @@ let currmode="light"
 btn.addEventListener("click",() => {
     if(currmode=== "light"){
         currmode="dark";
-        body.classList.add("light");
-        body.classList.remove("dark");
-    } else{
-        currmode ="light";
         body.classList.add("dark");
         body.classList.remove("light");
+    } else{
+        currmode ="light";
+        body.classList.add("light");
+        body.classList.remove("dark");
     }
      console.log(currmode);
 });
