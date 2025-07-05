@@ -1,0 +1,12 @@
+#btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.light{
+    background-color: yellow;
+}
+.dark{
+    background-color: black;
+}
